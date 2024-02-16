@@ -121,6 +121,8 @@ if (NOT CMAKE_VERSION VERSION_LESS 3.3)
   cmake_policy(SET CMP0057 NEW)
 endif ()
 
+add_compile_options(-fpic)
+
 include(CheckIncludeFile)
 include(CMakeDependentOption)
 
